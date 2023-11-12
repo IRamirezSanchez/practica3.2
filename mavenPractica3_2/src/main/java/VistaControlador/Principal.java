@@ -116,7 +116,7 @@ public class Principal extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\GitHub\\pr-ctica-2-6-pantalla-de-login-IRamirezSanchez\\practica-2.6\\media\\imageUsuario.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\GitHub\\practica3.2\\mavenPractica3_2\\src\\main\\resources\\imageUsuario.png")); // NOI18N
         jLabel5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
@@ -161,7 +161,7 @@ public class Principal extends javax.swing.JFrame {
                 .addComponent(jLabel5)
                 .addGap(26, 26, 26)
                 .addComponent(mensajeLogueadoName, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
                 .addComponent(botonModificarContrasenia, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(botonNuevoUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -181,7 +181,7 @@ public class Principal extends javax.swing.JFrame {
 
         cerrarPrincipal.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         cerrarPrincipal.setForeground(new java.awt.Color(255, 255, 255));
-        cerrarPrincipal.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\GitHub\\pr-ctica-3-1-usabilidad-b-sica-gu-a-estilo-e-instalaci-n-IRamirezSanchez\\Practica 3.1\\media\\icons8-cerrar-ventana-52.png")); // NOI18N
+        cerrarPrincipal.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\GitHub\\practica3.2\\mavenPractica3_2\\src\\main\\resources\\icons8-cerrar-ventana-52.png")); // NOI18N
         cerrarPrincipal.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 cerrarPrincipalMouseClicked(evt);
@@ -192,7 +192,7 @@ public class Principal extends javax.swing.JFrame {
 
         minimizarPrincipal.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         minimizarPrincipal.setForeground(new java.awt.Color(255, 255, 255));
-        minimizarPrincipal.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\GitHub\\pr-ctica-3-1-usabilidad-b-sica-gu-a-estilo-e-instalaci-n-IRamirezSanchez\\Practica 3.1\\media\\icons8-minimizar-50-removebg-preview.png")); // NOI18N
+        minimizarPrincipal.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Documents\\GitHub\\practica3.2\\mavenPractica3_2\\src\\main\\resources\\icons8-minimizar-50-removebg-preview.png")); // NOI18N
         minimizarPrincipal.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 minimizarPrincipalMouseClicked(evt);
@@ -276,8 +276,8 @@ public class Principal extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(400, 400, 400)
                 .addComponent(barraEstadoPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(49, 49, 49)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap()
                 .addComponent(panelLateralPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
