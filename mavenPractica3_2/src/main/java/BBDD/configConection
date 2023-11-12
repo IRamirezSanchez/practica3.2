@@ -1,0 +1,3 @@
+cadena_conexion=jdbc:mysql://localhost:3306/login
+usuario=root
+contrasenia=
